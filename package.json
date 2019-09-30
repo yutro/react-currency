@@ -10,7 +10,7 @@
   "jsnext:main": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "rollup -c",
+    "build": "npm run test && rollup -c",
     "test": "jest"
   },
   "keywords": [
